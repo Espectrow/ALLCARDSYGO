@@ -6,7 +6,7 @@ http://javascript.tunait.com
 tunait@yahoo.com 
 ******************************************************************************/
 var directorio = "img" //directorio o ruta a donde se guardan las imágenes
-var numImagenes = 10460 //cantidad de imágenes que existan em el directorio
+var numImagenes = 100 //cantidad de imágenes que existan em el directorio
 
 //***No tocar el código a partir de aquí
 var nums=new Array()
