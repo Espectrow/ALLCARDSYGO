@@ -1,4 +1,8 @@
 <!--
+
+body{
+	background-color:black;
+}
 .formato {
 	font-family: Tahoma, Verdana, Arial;
 	font-size: 12px;
@@ -75,4 +79,27 @@
     position: fixed;
 	visibility: hidden;
 }
+tbody img{
+	background-color:red;
+}
+tbody img:hover{
+	background-color:red;
+	box-shadow: 0 0 10px yellow;
+}
+
+.boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #006505;
+    background-color: #82b085;
+    border: 3px double #006505;
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
 -->
