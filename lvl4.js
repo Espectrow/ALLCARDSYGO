@@ -125,7 +125,7 @@ document.writeln ('<table align="center">')
 document.writeln ('<tr align="center">')
 for(p=1; p<=nums.length;p++)
 	{
-	if(s > 5){document.write ('</tr><tr>');s=1}
+	if(s > 10){document.write ('</tr><tr>');s=1}
 	document.write ('<td id="' + lista[p-1] + '"><a href="#" onclick="this.blur();return false">')
 	document.write ('<img id="' + lista[p-1] + '" onclick="gira(this,this.id)" src="' + directorio + '/cover.jpg" width="100" height="145">')
 	document.writeln ('</a></td>')
