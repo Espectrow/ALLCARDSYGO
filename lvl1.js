@@ -127,7 +127,7 @@ for(p=1; p<=nums.length;p++)
 	{
 	if(s > 5){document.write ('</tr><tr>');s=1}
 	document.write ('<td id="' + lista[p-1] + '"><a href="#" onclick="this.blur();return false">')
-	document.write ('<img id="' + lista[p-1] + '" onclick="gira(this,this.id)" src="' + directorio + '/cover.jpg" width="100" height="145">')
+	document.write ('<img id="' + lista[p-1] + '" onclick="gira(this,this.id)" src=https://espectrow.github.io/yugioh_memory_game/"' + directorio + '/cover.jpg" width="100" height="145">')
 	document.writeln ('</a></td>')
 	s++
 	}
@@ -144,7 +144,7 @@ if(perdio == true)
 if(cual != gi1){cont++}
 if(cont < 3)
 	{
-	cual.src = directorio + "/" + carta + ".jpg"
+	cual.src ="https://espectrow.github.io/yugioh_memory_game/"+ directorio + "/" + carta + ".jpg"
 	if(cont==1){gi1 = cual;}
 	else{gi2 = cual; comp()}
 	}
@@ -177,8 +177,8 @@ else
 }
 function restaura()
 	{
-	gi1.src = directorio + "/" + "cover.jpg" ; gi1 =""
-	setTimeout('gi2.src = directorio + "/cover.jpg";gi2=""',200)
+	gi1.src ="https://espectrow.github.io/yugioh_memory_game/" + directorio + "/" + "cover.jpg" ; gi1 =""
+	setTimeout('"gi2.src = https://espectrow.github.io/yugioh_memory_game/" + directorio + "/cover.jpg";gi2=""',200)
 	cont = 0
 	intentos ++
 	document.formu.visor.value = "Intentos: " + intentos
