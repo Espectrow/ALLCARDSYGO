@@ -11,7 +11,7 @@ var numImagenes = 100 //cantidad de imágenes que existan em el directorio
 //***No tocar el código a partir de aquí
 var nums=new Array()
 
-var dif = 10;
+var dif = 40;
 function dificultad(a){
 	if(a<5){dif = dif;}
 	if(a>=5){dif=a;}
